@@ -1,0 +1,140 @@
+---
+title: "Scale and Scope Economies in English Hospitals"
+author: "Robert Willans"
+institute: "Lancaster University"
+format:
+  revealjs:
+    slide-number: true
+    show-slide-number: print
+editor: visual
+bibliography: references.bib
+---
+
+## Overview
+
+-   Aim: To quantify the size of, and limits to, scale and scope economies in English Hospital Healthcare
+
+-   Data taken from English NHS Hospital Organisations
+
+-   Parametric methods used
+
+::: {.notes}
+This PhD thesis investigated scale and scope economies in English secondary healthcare provision.
+
+The thesis contributes to knowledge by providing some updated estimates for secondary healthcare generally, and in particular for the UK, which is a country which has not really had any successful attempts to measure scale economies.
+
+I use data from the English NHS. As the largest country within the UK, the devolved Welsh Scottish and Northern Irish health systems are smaller and have different structures, so data is not comparable. The benefit is that a lot of data is available in the UK as a consequence of having an integrated system, which means that as well as activity information, the thesis was able to use wage and other input prices, which is not often available in other studies
+
+In each constituent paper, I use parametric methods to estimate a cost function, deriving scale economy estimates, excepting chapter 5, which is a brief look at scope economies. A variety of functional forms and parametric methods are used, with results contrasted with each other and discussed.
+:::
+
+## Chapter One: Theoretical Background, Data and Estimation Issues
+
+-   Dealing with heterogeneity and Multiproduct Cost Functions
+
+-   Measurement
+
+-   How do we measure size?
+
+-   Parametric vs Non-Parametric Methods
+
+::: {.notes}
+Chapter one sets out the theoretical background, and methodological issues with the data and estimation techniques
+
+When considering hospital cost functions, one of the difficulties lies in the sheer heterogeneity of healthcare goods. These are not like firms producing one or a handful of similar goods; hospitals are where nearly all specialist healthcare is delivered.
+
+The fact that we need to consider heterogeneous outputs means that we need to reduce outputs to a manageable number, and deal with them via a multiproduct cost function. Consequently our definitions of how cost and size are related needs to account for this, which is discussed in the chapter, setting out the definition of scale and scope economies used later in the thesis.
+
+The chapter also discusses some measurement issues, including how we define hospital outputs, weighting and classifying those outputs and issues such as non-healthcare outputs like research and teaching activities, and how these can be excluded. There is also a short discussion of how we measure scale or size and the use of proxy measures for capital.
+
+Finally, I briefly discuss my choice of parametric measures and the non-parametric alternative, choices regarding whether to estimate short or long-run cost functions, and the choice of functional forms that have been used in cost function estimations.
+:::
+
+## Chapter Two: Scale Economies derived via a long-run translog cost function
+
+Prior estimates - Positive scale economies up to 230 beds [@azevedoCostEffectsHospital2014] (Portuguese data), to 370 beds [@frechResolvingImpasseHospital1995] (US Data), or at least 400 beds [@wilsonNonparametricAnalysisReturns2004] (non-parametric method on US Data)
+
+@scottInvestigatingHospitalEfficiency1995 only UK study I am aware of - did not go on to estimate from derived cost function. Increased data available now make this method feasible
+
+Multiproduct translog used with inputs including outpatient care, elective and non-elective admitted care, diagnostic tests and A&E attendances.
+
+Scale economies computed as inverse of the sum of individual cost-output elasticities - i.e. does a 1% increase in all outputs entail a proportionately higher or lower percentage increase in costs.
+
+::: {.notes}
+Chapter Two is the first analysis chapter proper, and estimates scale economies via a long-run translog cost function.
+
+Most recently direct estimation of the limits to scale economies has been carried out by Azvedo and , and Frech ), xxx(ref) but as mentioned before most literature is dated and non for the uk. Scott et al. tried but were unsatisfied with their estimated function and the data available at the time.
+
+Outputs modelled include ambulatory or outpatient care, admitted and emergency care, unbundled diagnostic tests. Scale economies are computed using the method originally defined by Baumol et al () Main result is the finding of small but positive economies of scale up to the level of approximately 1,100 beds.
+
+Also notable that scale economies were lower in London and SE. In hindsight this makes intuitive sense, as proportionate increases in outputs would cost more than other areas, due to London weighting for nursing and other Agenda for Change staff, and perhaps a higher price level for non-pay expenditure (reflected by the dummy variable for London based trusts). This is consistent with the finding in Asmild and Hollingsworth (1321) that hospital costs can be affected by location, and that studies which do not attempt to model or account for different local price levels may be missing a source of variation.
+
+When evaluating the translog for theoretical consistency, the estimated function behaved relatively well wrt output variables, with tests for convexity relatively well behaved. Input prices were less well modelled, particularly with respect to the constructed cost of capital variable, with more departures from convexity noted.
+:::
+
+## Chapter Three: Scale Economies derived via a long-run quadratic cost function
+
+::: {.notes}
+
+Chapter three repeats a similar analysis but this time using a quadratic cost function, which has a similar structure but without logged terms. The quadratic function is less popular in the literature, but has the advantage that it can model zero outputs as terms are not logged.
+
+With the quadratic function, we obtain a similar range of scale economies to the translog, albeit with much wider confidence intervals. The relationship with size is different – there is less of a clear relationship, and consequently no observed limit. This difference has been noted by xxxxx (19xx) in the literature, so may arise from the functional form used. 
+
+When evaluating the properties of the quadratic, it fits desired theoretical properties approximately as well as the translog, so there are few reasons to prefer one over the other – there are slightly fewer departures from convexity wrt to input prices, but few obvious reasons to prefer one form over the other
+
+:::
+
+## Chapter Four: Estimation via a short-run cost function and envelope approach
+
+::: {.notes}
+
+Chapter four addresses a critique in the literature, originally noted by Aletras (1234) but carried forward in other studies, including two relatively recent ones from Preyra & Pink and Christensen.
+
+The argument runs that, by estimating a cost function from observed data, we are in danger of overstating costs at each level of output. The overstatement could arise where hospitals are not fully cost-minimising, because they have non-optimal levels of capital for their current level of output. Including the non-optimal levels means that the cost function overstates the true cost-minimising function.
+To deal with this critique the suggestion is to deal with it in two steps. First to estimate a short-run cost function, proxying capital with beds. Then solve this and define optimal beds in at each level of output. By substituting this expression back into the short term cost function we obtain a long-run function assuming optimal capital levels at each output level.
+The results from this approach using a translog are perhaps as expected. The cost-efficient optimal number of beds was found to be slightly lower than the observed values, suggesting that trusts wer overcapitalised. When optimal capital values were assumed, economies of scale rose, particularly at the upper end, so no limit was observed.
+However, the optimal capital calculation did not return sensible values in the case of the quadratic specification, which fed through to questionable scale economy results. This is suggestive that results using this method are sensitive to form and specification of the function (see also appendix with aggregated outputs) Even with the translog results, it may be the case that whilst fewer beds are cost-minimising, they may not be realistic where a certain amount of capacity needs to be on hand to deal with fluctuating demand. Consequently, I conclude that this method, whilst it may deal with the implicit assumption of observed data being optimal, it introduces alternate biases which may mean that scale economies are overstated, or very vulnerable to optimal capital calculations being off.
+
+
+:::
+
+## Chapter Five: Scope Economies in Major Specialty Groupings
+
+::: {.notes}
+
+Chapter five deals with economies of scope. Few studies look at this area, and where they do (ref), usually it is considered as an extension of a study looking at scale economies. Because most prior studies deal with scope as an extension, they will just use the same units as outputs, usually related to the care setting, ie. Whether care is admitted or ambulatory, etc. A notable recent exception was the paper by Scholtz et al, however this study looked at inpatient care only, rather than all hospital care, and used a non-intuitive classification of outputs with no accounting for other factors influencing cost, other than activity. 
+
+Now, However this isn’t really useful from a policy point of view, as decisions on coloocation are structured around services based on specialties. So it’s not really useful to say there are scope economies between emergency and elective care, that’s too high a level of aggregation. Consequently, I regroup outputs based on specialty.
+
+A lot of other studies, e.g. jdfslkjd, who use a translog form, use a limited test for scope economies, based around cost complementarities, or negative coefficients on the interaction terms in the regression results. This has a weakness that it only detects scope economies from variable costs (pointed out by xxxx (1234)), but not from the sharing of fixed resources, which might be an important source of scope economies where things like maintaining hospital buildings and equipment are significant (and included in the intercept term in our cost function. 
+
+To deal with this I use a quadratic form, which allows us to model cost at zero levels of output, and therefore to use a more comprehensive defition of economies of scope, which includes the effect of being able to share fixed costs.
+
+<def>
+
+Comparing the specialty groups, I find that generalist specialties, particularly general surgery have greater economies of scope with all other activity. General Surgery, and to a lesser extent obstetrics and gynaecology (check) had positive scope economies, whilst orthopaedics and diagnostic activity had none or negative scope economies. None of these results, were suggested by the limited cost complementarities test, apart from gynaecology and anaesthetics, suggesting that studies that rely on such a method may miss scope economies from this source.
+
+
+:::
+
+## Conclusion and Contributions
+
+::: {.notes}
+
+Research Contribution
+Finally, the last chapter discusses and concludes the results from the individual essays. It argues that as a result of this thesis, we can update estimates from old studies, suggesting that technology has moved on, and there is no evidence that diseconomies of scale now apply before 1,200 beds at least, and possibly further dependent on the particular method used. 
+It also shows the effects different methodological assumptions can have, with some evidence for divergence between quadratic and translog functional forms. Future studies may wish to use both or at least consider that observed variation in results may be a feature of such forms.
+Many studies also lack data on input prices, which are often assumed to have no effect where there are national pay or consumable procurement. This study includes input prices where able, and is able to demonstrate a cost function difference between high cost and low cost areas.
+Policy Contributions
+Policymakers can take note of the findings 
+There may be small-scale benefits from increasing output amongst smaller hospitals, at least up to 1,200 beds and possibly further. These savings are unlikely to justify full mergers, but ought to be borne in mind when planning care provision.
+There are lower scale economies in high-cost areas around London. It may be that any changes to healthcare supply in London or similar high cost areas take a different form to those in other areas of the country.
+Finally, Consideration of the configuration of hospital services ought to consider effects of scope. This thesis only lightly touches on scope economies, but shows some evidence that ‘generalist’ specialties, and general surgery in particular has benefits from colocation with other activities, and that a base level of such healthcare ought to be supplied in each hospital.
+That concludes my brief overview – will pause here for questions and discussion
+
+:::
+
+## References
+
+::: {#refs}
+:::
