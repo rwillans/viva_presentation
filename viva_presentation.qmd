@@ -174,7 +174,7 @@ It also shows some evidence for divergence in results between quadratic and tran
 
 Previous studies often relied on national-level procurement and wage setting and did not include input prices. This study includes input prices where possible and can consequently demonstrate a difference between high and low-cost areas. 
 
-In policy terms, there may be small-scale benefits from increasing output amongst smaller hospitals, at least up to 1,200 beds. These savings are unlikely to justify full mergers but should be considered when planning care supply. Policymakers also may wish to consider that scale economies will be lower in higher cost areas around London, and plan accordingly. 
+In policy terms, there may be small benefits from increasing output amongst smaller hospitals, at least up to 1,200 beds. These savings are unlikely to justify full mergers but should be considered when planning care supply. Policymakers also may wish to consider that scale economies will be lower in higher cost areas around London, and plan accordingly. 
 
 Finally, policymakers ought to consider the effects of scope. This thesis only lightly touches on scope economies. However, it shows some evidence that 'generalist' specialities, and general surgery in particular, benefit from collocation with other activities. A base level of those services should be supplied in each hospital. 
 
