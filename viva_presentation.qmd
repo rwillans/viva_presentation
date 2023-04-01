@@ -19,13 +19,11 @@ bibliography: references.bib
 -   Parametric methods used
 
 ::: notes
-This PhD thesis investigated scale and scope economies in English secondary healthcare provision.
+This PhD thesis investigated scale and scope economies in English secondary healthcare provision, contributing updated estimates for secondary healthcare using data from a country that has yet to have a successful attempt to measure scale economies.
 
-I contribute to knowledge by providing some updated estimates for secondary healthcare generally, particularly for the UK. The UK has yet to have any successful attempts to measure scale economies.
+I use data from the English NHS. Due to its integrated system, a lot of data is available in the UK. This system means that as well as activity information, I could use wage and other input prices, which are not often available in other studies.
 
-Data is used from the English NHS, the largest country within the UK and the most developed datasets. A lot of data is available in the UK as a consequence of having an integrated system, which means that as well as activity information, the thesis was able to use wage and other input prices, which is not often available in other studies
-
-In each constituent paper, I use parametric methods to estimate a cost function, deriving scale economy estimates, excepting chapter 5, which is a brief look at scope economies. A variety of functional forms and parametric methods are used, with results contrasted with each other and discussed.
+In each constituent paper, I use parametric methods to estimate a cost function, deriving scale economy estimates, excepting chapter 5, which is a brief look at scope economies. Various functional forms and parametric methods are used, with results contrasted with each other and their implications discussed.
 :::
 
 ## Ch 1: Theoretical Background, Data and Estimation
@@ -39,15 +37,15 @@ In each constituent paper, I use parametric methods to estimate a cost function,
 -   Parametric vs Non-Parametric Methods
 
 ::: notes
-Chapter one outlines the theoretical background and methodological issues with the data and estimation techniques.
+Chapter one outlines the theoretical background and methodological issues.
 
-When considering hospital cost functions, one of the difficulties lies in the sheer heterogeneity of healthcare goods. These differ from firms producing one or a handful of similar goods; hospitals are where nearly all specialist healthcare is delivered.
+When considering hospital cost functions, one of the difficulties lies in the heterogeneity of healthcare goods. Hospitals differ from firms producing one or a handful of similar goods, offering an extensive range of specialist health services.
 
-The fact that we need to consider heterogeneous outputs means that we need to reduce outputs to a manageable number and deal with them via a multiproduct cost function. Consequently, our definitions of how cost and size are related need to account for this, which is discussed in the chapter, setting out the definition of scale and scope economies used later in the thesis.
+The need to consider heterogeneous outputs means that we must reduce these outputs to a manageable number and deal with them via a multiproduct cost function. Consequently, our definitions of how cost and size are related need to account for this, which is discussed in the chapter, setting out the definition of scale and scope economies used later in the thesis.
 
-The chapter also discusses measurement issues, including how we define hospital outputs, weighting and classifying those outputs and issues such as non-healthcare outputs like research and teaching activities, and how these can be excluded. There is also a short discussion of how we measure scale or size and the use of proxy measures for capital.
+The chapter also discusses measurement issues, including how we define and weight hospital outputs, deal with non-healthcare outputs like research and teaching activities, and measure hospital size.
 
-Finally, I briefly discuss my choice of parametric measures and the non-parametric alternative, methodological choices of short- or long-run cost functions, and the different functional forms used in cost function estimations.
+Finally, I briefly discuss my choice of parametric measures and the non-parametric alternative, methodological choices of short or long-run cost functions, and the different functional forms used in cost function estimations.
 :::
 
 ## Ch 2: Scale Economies - L-R Translog
@@ -76,7 +74,7 @@ Most recently, direct estimation of the limits to scale economies has been carri
 
 As mentioned before, most literature is dated and not for the UK. Scott et al. tried with Scottish data but were unsatisfied with their estimated function and the data available at the time. That was almost 30 years ago, and data has since improved.
 
-This chapter uses more recent and comprehensive data, including input prices, to model a multiproduct cost function and consequent scale economies computed using the method initially defined by Baumol. The main result is finding small but positive economies of scale, up to approximately 1,200 beds.
+This chapter uses more recent and comprehensive data to estimate scale economies, via a long run translog cost function. The main result is finding small but positive economies of scale, up to approximately 1,200 beds.
 
 Also notable is that scale economies were lower in London and SE. In hindsight, this makes intuitive sense, as proportionate output increases cost more than other areas due to higher wages and a higher price level for non-pay expenditure.
 :::
@@ -99,9 +97,9 @@ Also notable is that scale economies were lower in London and SE. In hindsight, 
 ::: notes
 Chapter three repeats a similar analysis to the preceding chapter. However, this time the analysis uses a multiproduct quadratic cost function, which has a similar structure to the translog but without logged terms. The quadratic function is less prevalent in the literature but has the advantage that it can model zero outputs as terms are not logged.
 
-With the quadratic function, we obtain a similar range of scale economies to the translog, albeit with much wider confidence intervals. The relationship with size is different -- there is less of a clear relationship, and consequently, no observed limit to scale economies. The limit of scale economies is influenced by the higher end of the spectrum where there are fewer data points, so likely to be influenced by variations in the estimation.
+With the quadratic function, we obtain a similar range of scale economies to the translog, albeit with much wider confidence intervals. However, the relationship with size is different -- there is less of a clear relationship, and consequently, no observed limit to scale economies. 
 
-When evaluating the properties of the quadratic, it fits the desired theoretical slightly fewer departures from convexity wrt to input prices, so I have preferred the translog. However, the takeaway point is that what best fits the data here may differ from other datasets. Other researchers should consider both specifications when embarking on studies of this kind.
+When evaluating the properties of the quadratic, it fits the desired theoretical slightly fewer departures from convexity wrt to input prices, so I have preferred the translog. However, the takeaway point is that what best fits the data here may differ from other datasets. Other researchers should consider using both specifications when embarking on studies of this kind.
 :::
 
 ## Ch 4: Scale Economies - S-R Function
@@ -123,7 +121,7 @@ This chapter addresses a critique in the literature arguing against directly usi
 :::
 
 ::: notes
-Chapter four addresses a critique in the literature, noted by Aletras but carried forward in other studies, including two relatively recent ones from Preyra & Pink and Christensen. The argument is that by estimating a cost function from observed data, we are in danger of overstating costs at each output level. The overstatement could arise where hospitals have non-optimal levels of capital for their current output level.
+Chapter four addresses a critique in the literature against directly estimating long-run cost functions. The argument is that by estimating a cost function from observed data, we are in danger of overstating costs at each output level. The overstatement could arise where hospitals have non-optimal levels of capital for their current output level.
 
 To deal with this critique, the suggestion is to first estimate a short-run cost function. Optimal capital levels are then computed and substituted back into the short-term cost function to obtain a long-run function with optimal capital levels. The results from this approach using a translog are perhaps as expected. The cost-efficient optimal number of beds was slightly lower than the observed values, suggesting that trusts were overcapitalised. When optimal capital values were assumed, economies of scale rose, particularly at the upper end, so no limit was observed.
 
@@ -144,13 +142,9 @@ However, the optimal capital calculation did not return sensible values in the c
 
 
 ::: notes
-Chapter five deals with economies of scope. Few studies look at this area. Where they do, it is usually considered an extension of a scale economy study, using the same output classifications as the scale economies study. 
+Chapter five deals with economies of scope. Few studies look at this area. Where they do, it is usually considered an extension of a scale economy study, using the same output classifications as the scale economies study. However, this is not useful from a policy point of view, as decisions on collocation are structured around services based on specialities. Consequently, I regroup outputs based on specialty rather than care setting.
 
-However, this is not useful from a policy point of view, as decisions on collocation are structured around services based on specialities. Consequently, I regroup outputs based on specialty rather than care setting.
-
-Studies using the more popular translog form are forced to use a limited test for scope economies based on cost complementarities or negative coefficients on interaction terms. This test is weak because it only detects positive spillover effects from variable costs and not from sharing fixed costs. Fixed cost sharing might be an important source of scope economies where things like maintaining hospital buildings and equipment are significant.
-
-To deal with this, I use a quadratic form, which allows us to model cost at zero levels of output and, therefore, to use a more comprehensive definition of economies of scope, which includes the effect of being able to share fixed costs.
+I also use a quadratic form in this chapter. Studies using the more popular translog form are forced to use a limited test for scope economies based on cost complementarities or negative coefficients on interaction terms. This test is weak because it only detects positive spillover effects from variable costs, not from sharing fixed costs. Fixed cost sharing might be an important source of scope economies where things like maintaining hospital buildings and equipment are significant.
 
 Results show that generalist specialties, particularly general surgery, have larger economies of scope with all other activities. General Surgery, General Medicine, and to a lesser extent, obstetrics and gynaecology had positive scope economies, whilst orthopaedics and diagnostic activity had none or negative scope economies. The limited cost complementarities test suggested none of these results, apart from a link between gynaecology and anaesthetics, suggesting that studies that rely on such a method may miss scope economies from this source.
 
@@ -185,9 +179,6 @@ In policy terms, there may be small-scale benefits from increasing output amongs
 Finally, policymakers ought to consider the effects of scope. This thesis only lightly touches on scope economies. However, it shows some evidence that 'generalist' specialities, and general surgery in particular, benefit from collocation with other activities. A base level of those services should be supplied in each hospital. 
 
 That concludes my brief overview -- will pause here for questions and discussion.
-
-That concludes my brief overview -- will pause here for questions and discussion
-
 :::
 
 ## References {#refs .smaller .r-fit-text}
